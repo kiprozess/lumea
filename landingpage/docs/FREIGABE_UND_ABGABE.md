@@ -18,7 +18,7 @@ Die Veröffentlichung hat kein Ablaufdatum. Repository und Pages-Hosting mindest
 | --- | --- |
 | A | Teil_A_Positionierung.pdf, eine Seite |
 | B | Teil_B_Markenwelt_und_Design.pdf; Logo und Blatticon als PNG im Abgabepaket |
-| C | Öffentliche URL oben; mobile Produktseite, Bestellformular und Dankeseite |
+| C | Öffentliche URL oben; Teil_C_Landingpage_und_Pruefung.pdf mit Direktlinks und Prüfergebnis |
 | D | Teil_D_Tracking.pdf, zwei Seiten; Meta-Pixel 1234567890, GA4 G-LUMEA0000 |
 | E | Teil_E_Kampagnenplan.pdf, drei Seiten |
 | F | Teil_F_Creatives_und_Anzeigentexte.pdf sowie sechs einzelne PNG-Dateien |
