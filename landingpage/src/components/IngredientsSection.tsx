@@ -1,9 +1,10 @@
+import { siteUrl } from '../lib/siteUrl'
 import { ingredients } from '../data/ingredients'
 
 export function IngredientsSection() {
   return <section id="inhaltsstoffe" className="ingredients-section" aria-labelledby="ingredients-heading">
     <div className="ingredients-botanical">
-      <img src="/images/lumea-botanical.png" alt="Weiße Blütenstände der Traubensilberkerze im warmen Sonnenlicht" loading="lazy" />
+      <img src={siteUrl('/images/lumea-botanical.png')} alt="Weiße Blütenstände der Traubensilberkerze im warmen Sonnenlicht" loading="lazy" />
     </div>
     <div className="ingredients-copy">
       <p className="ingredients-eyebrow">PFLANZE TRIFFT NÄHRSTOFFE</p>

@@ -1,16 +1,17 @@
+import { siteUrl } from '../lib/siteUrl'
 import { useState } from 'react'
 import { Icon } from './Icon'
 import { Modal } from './Modal'
 
 const images = [
-  { src: '/images/lumea-hero.png', alt: 'Lumea Monatsglas auf hellem Naturstein im warmen Sonnenlicht', label: 'Produkt ansehen', type: 'photo' },
-  { src: '/images/lumea-info-ingredients-v3.png', alt: 'Vier Inhaltsstoffe pro Kapsel: Traubensilberkerzen-Extrakt 6,5 mg, Vitamin B6 1,4 mg, Vitamin D3 20 µg und Magnesium 150 mg', label: 'Grafik zu den Inhaltsstoffen ansehen', type: 'infographic' },
-  { src: '/images/lumea-info-routine-v3.png', alt: 'Deine Routine: eine Kapsel am Tag, vier ausgewählte Inhaltsstoffe, 30 Kapseln pro Glas, vegan und ohne zugesetzte Hormone', label: 'Grafik zur täglichen Routine ansehen', type: 'infographic' },
-  { src: '/images/lumea-info-subscription-v3.png', alt: 'Lumea Monatsabo: erster Monat 14,50 Euro, danach 29 Euro monatlich, Versand in Deutschland inklusive, jederzeit kündbar und keine Mindestlaufzeit', label: 'Grafik zum Monatsabo ansehen', type: 'infographic' },
-  { src: '/images/lumea-capsule.png', alt: 'Detailaufnahme einer hellbeigen Lumea Kapsel auf Naturstein', label: 'Kapsel ansehen', type: 'photo' },
-  { src: '/images/lumea-botanical.png', alt: 'Zarte weiße Blüten der Traubensilberkerze im Sonnenlicht', label: 'Pflanzenmotiv ansehen', type: 'photo' },
-  { src: '/images/lumea-portrait.png', alt: 'Frau in der Lebensmitte mit dunkelblondem Haar und cremefarbenem Pullover im warmen Abendlicht', label: 'Frauenporträt ansehen', type: 'photo' },
-  { src: '/images/lumea-packshot.png', alt: 'Lumea Braunglas mit 30 Kapseln, cremefarbenem Etikett und goldenem Deckel', label: 'Verpackung ansehen', type: 'packshot' },
+  { src: siteUrl('/images/lumea-hero.png'), alt: 'Lumea Monatsglas auf hellem Naturstein im warmen Sonnenlicht', label: 'Produkt ansehen', type: 'photo' },
+  { src: siteUrl('/images/lumea-info-ingredients-v3.png'), alt: 'Vier Inhaltsstoffe pro Kapsel: Traubensilberkerzen-Extrakt 6,5 mg, Vitamin B6 1,4 mg, Vitamin D3 20 µg und Magnesium 150 mg', label: 'Grafik zu den Inhaltsstoffen ansehen', type: 'infographic' },
+  { src: siteUrl('/images/lumea-info-routine-v3.png'), alt: 'Deine Routine: eine Kapsel am Tag, vier ausgewählte Inhaltsstoffe, 30 Kapseln pro Glas, vegan und ohne zugesetzte Hormone', label: 'Grafik zur täglichen Routine ansehen', type: 'infographic' },
+  { src: siteUrl('/images/lumea-info-subscription-v3.png'), alt: 'Lumea Monatsabo: erster Monat 14,50 Euro, danach 29 Euro monatlich, Versand in Deutschland inklusive, jederzeit kündbar und keine Mindestlaufzeit', label: 'Grafik zum Monatsabo ansehen', type: 'infographic' },
+  { src: siteUrl('/images/lumea-capsule.png'), alt: 'Detailaufnahme einer hellbeigen Lumea Kapsel auf Naturstein', label: 'Kapsel ansehen', type: 'photo' },
+  { src: siteUrl('/images/lumea-botanical.png'), alt: 'Zarte weiße Blüten der Traubensilberkerze im Sonnenlicht', label: 'Pflanzenmotiv ansehen', type: 'photo' },
+  { src: siteUrl('/images/lumea-portrait.png'), alt: 'Frau in der Lebensmitte mit dunkelblondem Haar und cremefarbenem Pullover im warmen Abendlicht', label: 'Frauenporträt ansehen', type: 'photo' },
+  { src: siteUrl('/images/lumea-packshot.png'), alt: 'Lumea Braunglas mit 30 Kapseln, cremefarbenem Etikett und goldenem Deckel', label: 'Verpackung ansehen', type: 'packshot' },
 ]
 
 export function ProductGallery() {

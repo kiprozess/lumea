@@ -1,3 +1,4 @@
+import { siteUrl } from '../lib/siteUrl'
 import { Icon } from './Icon'
 import { ingredients } from '../data/ingredients'
 
@@ -62,7 +63,7 @@ export function AdvertorialArticle() {
       <dl className="adv-ingredients">{ingredients.map(item => <div key={item.id}><dt>{item.label}</dt><dd>{item.amount}</dd></div>)}</dl>
       <p>Du musst dir keine einzelnen Nährstoffprodukte zusammenstellen und behältst Zusammensetzung und Kosten im Blick. Lumea verbindet eine einfache Einnahme mit einer klaren Idee: bewusst für dich sorgen, jeden Tag.</p>
       <details className="adv-evidence-detail"><summary>Mehr zur Traubensilberkerze und zur Einordnung der Rezeptur<Icon name="chevron" /></summary><div><p>Traubensilberkerze ist eine Pflanze mit langer Verwendung im Bereich der Frauengesundheit. Die EMA bewertet bestimmte standardisierte Arzneimittel aus ihrer Wurzel für Wechseljahrsbeschwerden. Diese Bewertung ist an die jeweiligen Extrakte gebunden und lässt sich nicht auf jede Rezeptur übertragen. <SourceRef number={5} /></p><p>Lumea ist eine Nahrungsergänzung. Die hier beschriebenen Nährstofffunktionen beziehen sich auf Magnesium, Vitamin B6 und Vitamin D3; ein produktspezifischer Nachweis zur Behandlung von Hitzewallungen oder Schlafstörungen liegt für Lumea nicht vor.</p></div></details>
-      <a className="adv-text-link" href="/#inhaltsstoffe">Die Lumea-Inhaltsstoffe im Detail ansehen<Icon name="arrow" /></a>
+      <a className="adv-text-link" href={siteUrl('/#inhaltsstoffe')}>Die Lumea-Inhaltsstoffe im Detail ansehen<Icon name="arrow" /></a>
     </section>
 
     <section id="fragen-zur-einnahme" className="adv-chapter">

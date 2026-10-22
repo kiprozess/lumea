@@ -1,3 +1,4 @@
+import { appPath } from './siteUrl'
 export const GA4_ID = import.meta.env.VITE_GA4_MEASUREMENT_ID || 'G-LUMEA0000'
 export const GTM_ID = import.meta.env.VITE_GTM_CONTAINER_ID || 'GTM-LUMEA0000'
 // The requested demo ID does not refer to a published container. Keep GA4 functional without it.
@@ -52,7 +53,7 @@ export function loadGoogleTracking() {
 }
 export function trackGoogleEvent(name: MetaEvent, eventId: string) {
   const event = eventNames[name]
-  const page = { page_location: location.origin + location.pathname, page_referrer: '', page_title: location.pathname === '/bestellung' ? 'Lumea | Bestellung' : location.pathname === '/danke' ? 'Lumea | Bestätigung' : 'Lumea | Produkt' }
+  const page = { page_location: location.origin + location.pathname, page_referrer: '', page_title: appPath() === '/bestellung' ? 'Lumea | Bestellung' : appPath() === '/danke' ? 'Lumea | Bestätigung' : 'Lumea | Produkt' }
   const ecommerce = name === 'PageView' ? undefined : {
     currency: 'EUR', value: 14.5,
     items: [{ item_id: 'LUMEA-30', item_name: 'Lumea Monatsabo', item_brand: 'Lumea', item_variant: 'Monatsabo', price: 14.5, quantity: 1 }],

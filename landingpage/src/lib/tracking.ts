@@ -1,3 +1,4 @@
+import { appPath } from './siteUrl'
 import { initializeGoogleConsent, loadGoogleTracking, trackGoogleEvent, updateGoogleConsent } from './googleTracking'
 
 export const PIXEL_ID = '1234567890'
@@ -53,7 +54,7 @@ export function hasMarketingConsent() { return ['accepted', 'marketing'].include
 export function hasAnalyticsConsent() { return ['accepted', 'analytics'].includes(consentInMemory || '') && ['accepted', 'analytics'].includes(getConsent() || '') }
 
 export function trackEvent(name: 'AddToCart' | 'InitiateCheckout' | 'AddPaymentInfo' | 'Purchase' | 'ViewContent' | 'PageView', key?: string, extra: Record<string, unknown> = {}, destination: 'all' | 'meta' | 'google' = 'all') {
-  const path = window.location.pathname.replace(/\/$/, '') || '/'
+  const path = appPath()
   if (!commerceRoutes.includes(path)) return false
   const metaAllowed = destination !== 'google' && hasMarketingConsent() && !!window.fbq && (!key || !sent.has(key))
   const googleAllowed = destination !== 'meta' && hasAnalyticsConsent() && (!key || !googleSent.has(key))
@@ -79,7 +80,7 @@ export function readOrder(): DemoOrder | null {
 export function storeOrder(order: DemoOrder) { sessionStorage.setItem(ORDER_KEY, JSON.stringify(order)) }
 function trackCurrentPage() {
   trackEvent('PageView', 'page-' + window.location.pathname)
-  const path = window.location.pathname.replace(/\/$/, '') || '/'
+  const path = appPath()
   if (path === '/') trackEvent('ViewContent', 'product-view')
   if (path === '/bestellung') trackEvent('InitiateCheckout', 'checkout-start', { num_items: 1 })
   if (path === '/danke') {
@@ -92,7 +93,7 @@ function trackCurrentPage() {
   }
 }
 export function startTracking() {
-  const path = window.location.pathname.replace(/\/$/, '') || '/'
+  const path = appPath()
   initializeGoogleConsent()
   if (!commerceRoutes.includes(path)) return
   if (!hasMarketingConsent() && !hasAnalyticsConsent()) { updateGoogleConsent(false); return }

@@ -1,3 +1,4 @@
+import { siteUrl } from '../lib/siteUrl'
 import { founders, founderQuote, founderStory } from '../data/founders'
 
 export function FoundersSection() {
@@ -11,7 +12,7 @@ export function FoundersSection() {
         <p className="founders-signature" aria-hidden="true">Katharina & Miriam</p>
       </div>
       <figure className="founders-portrait">
-        <img src="/images/lumea-founders-product.png" alt="Katharina, links, und Miriam sitzen gemeinsam an einem Holztisch mit einem Lumea-Glas vor ihnen" width="1448" height="1086" loading="lazy" />
+        <img src={siteUrl('/images/lumea-founders-product.png')} alt="Katharina, links, und Miriam sitzen gemeinsam an einem Holztisch mit einem Lumea-Glas vor ihnen" width="1448" height="1086" loading="lazy" />
         <figcaption>{founders.map(founder => <div key={founder.name}><p>{founder.name}<span> · {founder.age} Jahre</span></p><span>{founder.role}</span></div>)}</figcaption>
       </figure>
     </div>

@@ -1,3 +1,4 @@
+import { siteUrl } from '../lib/siteUrl'
 import { Icon } from './Icon'
 
 const steps = [
@@ -22,7 +23,7 @@ export function SubscriptionSection({ onSubscribe }: { onSubscribe: () => void }
         <div className="purchase-assurances subscription-trust"><span><Icon name="truck" />Versand inklusive</span><span><Icon name="shield" />Jederzeit kündbar</span><span><Icon name="lock" />Sichere Zahlung</span></div>
       </div>
       <div className="subscription-product">
-        <img src="/images/lumea-subscription-stone.png" alt="Lumea Monatsglas mit goldenem Deckel und zwei Kapseln auf hellem Travertin vor weißem Hintergrund" loading="lazy" />
+        <img src={siteUrl('/images/lumea-subscription-stone.png')} alt="Lumea Monatsglas mit goldenem Deckel und zwei Kapseln auf hellem Travertin vor weißem Hintergrund" loading="lazy" />
       </div>
     </div>
   </section>
