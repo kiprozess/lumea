@@ -2,6 +2,8 @@
 
 Stand: 23. Oktober 2026.
 
+Noch offen für die nachweislich vollständige Prozessabgabe: Originalexport oder öffentlicher Freigabe-Link des älteren Chats „Probearbeit Strategieentwickeln“. Dessen Antworten ließen sich in der verfügbaren Oberfläche nicht vollständig laden; die Freigabe funktionierte dort nicht. Die rekonstruierte Mitschrift ersetzt diesen Originalnachweis nicht. A bis F sowie die Reflexion und der aktuelle Codex-Gesprächsexport sind fertig.
+
 Öffentliche Landingpage ohne Login: https://kiprozess.github.io/lumea/
 
 Ratgeber: https://kiprozess.github.io/lumea/ratgeber/deine-routine-in-der-lebensmitte/
