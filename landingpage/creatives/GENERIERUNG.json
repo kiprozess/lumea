@@ -1,0 +1,61 @@
+{
+  "tool": "GPT Image built-in image_gen",
+  "created": "2026-10-23",
+  "referenceRole": "Sunday references for light, composition and typography only; original brand and claims not copied.",
+  "productReference": "public/images/lumea-packshot.png",
+  "commonBrief": "Premium German Lumea social ads, photorealistic warm sunlight, stone and linen, ivory/sage/olive, exact amber jar with champagne cap and ivory/sage label. Playfair headline and Inter supporting text, no medical promises or fake endorsements.",
+  "jobs": [
+    {
+      "id": "01-orientierung-4x5",
+      "ref": 1,
+      "format": "4:5 portrait, target 1080x1350",
+      "scene": "A real-looking 50 year old woman with fine lines and natural skin, relaxed at a warm window-side wooden table reading a magazine; subtle Lumea jar and water glass on table in lower third. Upper third pale warm wall with elegant dark olive text.",
+      "text": "Headline exactly: 'Die Lebensmitte.\\nNeu verstehen.' Small support: 'Orientierung für die Wechseljahre.' Bottom CTA exactly: 'Ratgeber entdecken'. Small Lumea logo above headline."
+    },
+    {
+      "id": "01-orientierung-9x16",
+      "ref": 1,
+      "format": "9:16 portrait, target 1080x1920",
+      "scene": "A real-looking 50 year old woman with fine lines and natural skin relaxed at a warm window-side wooden table reading a magazine; Lumea jar and water glass on table in lower middle. Top pale warm wall, comfortable negative space. Keep all essential text between 15% and 80% vertical frame safe zone for Stories.",
+      "text": "Headline exactly: 'Die Lebensmitte.\\nNeu verstehen.' Small support: 'Orientierung für die Wechseljahre.' CTA exactly: 'Ratgeber entdecken'. Small Lumea logo above headline."
+    },
+    {
+      "id": "02-inhaltsstoffe-4x5",
+      "ref": 3,
+      "format": "4:5 portrait, target 1080x1350",
+      "scene": "Elegant overhead still life exact Lumea bottle centered slightly lower on white warm limestone, white-flowering botanical sprig and two beige capsules nearby, long soft plant shadow. Generous blank upper area. Fine educational product design, clean hierarchy, no medical atmosphere.",
+      "text": "Headline exactly: 'Wissen, was drin ist.' Support list exactly: 'Traubensilberkerze · Vitamin B6\\nVitamin D3 · Magnesium'. Small line: '1 Kapsel am Tag · vegan · hormonfrei'. CTA: 'Zusammensetzung entdecken'. Small Lumea logo at top."
+    },
+    {
+      "id": "02-inhaltsstoffe-9x16",
+      "ref": 3,
+      "format": "9:16 portrait, target 1080x1920",
+      "scene": "Elegant overhead still life exact Lumea bottle centered lower-middle on white warm limestone, white-flowering botanical sprig and two beige capsules nearby, long soft plant shadow. Generous calm negative space above. All essential text in 15%-80% vertical frame safe zone. Fine educational product design.",
+      "text": "Headline exactly: 'Wissen, was drin ist.' Support list exactly: 'Traubensilberkerze · Vitamin B6\\nVitamin D3 · Magnesium'. Small line: '1 Kapsel am Tag · vegan · hormonfrei'. CTA: 'Zusammensetzung entdecken'. Small Lumea logo above headline."
+    },
+    {
+      "id": "03-routine-4x5",
+      "ref": 6,
+      "format": "4:5 portrait, target 1080x1350",
+      "scene": "Close editorial photograph of natural 50 year old woman's hands near a Lumea jar standing on pale travertine table, beige linen sleeve, two capsules nearby, water glass to side, warm authentic sunlight. Top background pale uncluttered wall for dark olive typography. Product front sharp and legible.",
+      "text": "Headline exactly: 'Eine kleine Routine.\\nGanz für dich.' Offer exactly: 'Erster Monat 14,50 €'. Directly below offer legible conditions: 'Danach 29 €/Monat · jederzeit kündbar' and 'Versand in Deutschland inklusive'. CTA: 'Lumea kennenlernen'. Small Lumea logo above."
+    },
+    {
+      "id": "03-routine-9x16",
+      "ref": 6,
+      "format": "9:16 portrait, target 1080x1920",
+      "scene": "Close editorial photograph of natural 50 year old woman's hands near exact Lumea jar standing on pale travertine table, beige linen sleeve, two capsules nearby, water glass to side, warm authentic sunlight. Top pale uncluttered wall. All essential text within 15%-80% vertical safe zone, including offer conditions; keep edges uncluttered.",
+      "text": "Headline exactly: 'Eine kleine Routine.\\nGanz für dich.' Offer exactly: 'Erster Monat 14,50 €'. Directly below offer legible conditions: 'Danach 29 €/Monat · jederzeit kündbar' and 'Versand in Deutschland inklusive'. CTA: 'Lumea kennenlernen'. Small Lumea logo above."
+    }
+  ],
+  "refinement": "For the two final Stories product/ingredients variants: preserve all wording and brand, recompose with top 15% and bottom 20% reserved for background, essential offer, price conditions and CTA well inside the frame.",
+  "selectedFiles": {
+    "01-orientierung-4x5": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-0f446aca-deff-445f-a538-f63c795d2ed4.png",
+    "01-orientierung-9x16": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-94e685a1-963b-4af9-a5a2-23f7d0154077.png",
+    "02-inhaltsstoffe-4x5": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-36b69d59-2b50-4fed-8854-776a83f02a7c.png",
+    "02-inhaltsstoffe-9x16": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-53776218-b518-4378-ba07-856df631df60.png",
+    "03-routine-4x5": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-82252a6a-b16f-4a1a-98a1-9dc613cde2aa.png",
+    "03-routine-9x16": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-b832719b-9e10-46f4-ad7b-75673b5cebef.png"
+  },
+  "export": "Original GPT Image files unchanged in final/. Technical delivery encoding in exports/ at 1080x1350 and 1080x1920. No added frames, text alterations or new imagery; native pixel-ratio rounding normalized (less than 0.06%)."
+}

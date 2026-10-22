@@ -6,3 +6,10 @@ dist-ssr/
 .env
 .env.*
 !.env.example
+
+# Local submission archive and complete conversation export are handed over separately.
+Abgabe_Lumea_*/
+Abgabe_Lumea_*.zip
+landingpage/docs/Teil_G_Gespraechsverlauf.md
+landingpage/docs/Teil_E_Kampagnenplan.docx
+landingpage/creatives/drafts/

@@ -1,6 +1,6 @@
 # Landingpage / Stand der Probearbeit
 
-Stand: 22. Oktober 2026. Lokale Produktseite: http://localhost:5173/
+Stand: 23. Oktober 2026. Öffentlich: https://kiprozess.github.io/lumea/ · Lokal: http://localhost:5173/
 
 ## Implementiert
 
@@ -36,16 +36,24 @@ Die Platzhalter-ID ist kein erreichbares echtes Werbekonto. Meta Events Manager 
 
 ## Bereitstellung
 
-Noch nicht öffentlich veröffentlicht. Für die Aufgabenabgabe ist eine öffentliche URL erforderlich, die mindestens vier Wochen online bleibt. Das ist ein eigener, noch offener Abgabeschritt.
+Veröffentlicht über GitHub Pages ohne Login: https://kiprozess.github.io/lumea/. Veröffentlichung ohne Ablaufdatum; Repository und Pages-Deployment mindestens bis 20. November 2026 unverändert erreichbar halten (vier Wochen ab 23. Oktober). Es ist keine Abschaltung geplant. Die zukünftige Verfügbarkeit hängt vom Hostinganbieter und dem Fortbestand des Repositorys ab.
 
 - Build: `npm run build`, Ausgabe `dist/`.
 - Vercel: Root Directory `landingpage`, Build Command `npm run build`, Output Directory `dist`. SPA-Rewrites und Sicherheitsheader: `vercel.json`.
 - Netlify: gleicher Build, Publish Directory `landingpage/dist` aus Repo-Root. SPA-Fallback in `public/_redirects`.
-- Trackingprüfung nach Deployment auf der endgültigen Domain wiederholen. Besonders direkte Aufrufe von `/bestellung`, `/danke` und dem Ratgeber prüfen.
+- Öffentliche Prüfung am 23.10.2026: alle vier Routen HTTP 200; Meta- und GA4-Netzwerkanfragen, getrennte Einwilligung, einmaliger Purchase und Widerruf geprüft. Desktop 1440 × 1000 und Mobile 390 × 844. GitHub-Pages-Deployment erfolgreich.
 - Keine Live-Zahlungsdaten oder echten Kundenkonten anbinden; der Auftrag verlangt nur eine simulierte Bestellstrecke.
 
-Die dokumentierte lokale Prüfung ersetzt nicht die Prüfung der noch ausstehenden öffentlichen URL. Die gesamte Probearbeit ist damit ebenfalls noch nicht vollständig (Teile A, E, F und G separat).
+Die öffentliche Bestellstrecke ist geprüft. Die PDFs für A, B, D, E, F und G sowie die sechs finalen Creatives werden im lokalen Abgabeordner zusammengeführt. Vollständiger sichtbarer Gesprächsexport wird separat übergeben und nicht zusätzlich im öffentlichen Repository veröffentlicht.
 
 ## Ergänzung Google
 
 Der ursprüngliche Meta-Test wurde um Google erweitert: getrennte Statistik-/Marketing-Auswahl, Consent Mode v2 Basic, GA4-Ecommerce und transaktionsbezogene Deduplizierung. Beide SDKs werden nur mit der jeweils passenden Zustimmung geladen. Die vorherige Meta-Einwilligung wird nicht automatisch als Google-Einwilligung übernommen. Echte GA4-Realtime-Berichte und ein echter GTM-Import sind ohne existierende Konten/Container nicht verifiziert. Details: GOOGLE_TRACKING.md.
+
+## Hosting auf GitHub Pages
+
+Workflow: `.github/workflows/pages.yml`; Build mit GITHUB_PAGES=true. `siteUrl` und `appPath` unterstützen das Unterverzeichnis `/lumea/`. Für Bestell-, Danke- und Ratgeberroute werden physische index.html-Dateien erzeugt. Direkte Einstiege und Reloads benötigen daher keinen Server.
+
+## Abgrenzung Kampagnenplan
+
+Teil E beschreibt geplante Kampagnen, keine geschalteten Anzeigen. Der gesundheitsbezogene Ratgeber lädt im Prototyp keine Meta- oder GA4-SDKs. Die geplanten Retargeting-Gruppen sind daher nicht live eingerichtet; ihre Zulässigkeit und Verfügbarkeit müsste im echten Konto geprüft werden. Beschränkte Gesundheitsereignisse dürfen nicht mit Ersatznamen oder URL-Tricks umgangen werden. Google-Ads-Conversion-Tags sind kein Pflichtteil der Aufgabe und nicht aktiviert; GA4 und Meta sind mit den verlangten Test-IDs umgesetzt.

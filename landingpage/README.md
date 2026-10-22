@@ -17,7 +17,9 @@ npm run build
 npm run preview
 ```
 
-Der Produktionsbuild wird in `dist/` erstellt.
+Öffentliche Demo: https://kiprozess.github.io/lumea/
+
+Der Produktionsbuild wird in `dist/` erstellt. Die GitHub-Pages-Pipeline setzt GITHUB_PAGES=true und erzeugt statische Einstiege für alle Seitenrouten.
 
 ## Advertorial
 
@@ -25,7 +27,7 @@ Die eigene Ratgeberseite ist unter `/ratgeber/deine-routine-in-der-lebensmitte` 
 
 Der recherchierte Text behandelt Müdigkeit und Schlafbelastung in den Wechseljahren, die Funktionen der enthaltenen Nährstoffe, die Einordnung von Lumea und konkrete Leserfragen. Quellen und Aussagegrenzen stehen in `ADVERTORIAL_RESEARCH.md`; der Artikeltext ist in `src/components/AdvertorialArticle.tsx` von der Seitengestaltung getrennt.
 
-Die Seite ist wie die Landingpage ein lokaler Prototyp; Veröffentlichung und Anzeigenschaltung sind nicht Bestandteil der Umsetzung. Layout und Inhalte stehen in `src/pages/AdvertorialPage.tsx` und `src/advertorial.css`.
+Die Seite ist Teil der öffentlichen Demo auf GitHub Pages. Tatsächliche Anzeigenschaltung ist nicht Bestandteil der Probearbeit. Layout und Inhalte stehen in `src/pages/AdvertorialPage.tsx` und `src/advertorial.css`.
 
 ## Struktur
 
@@ -58,8 +60,12 @@ Bildherkunft und Generierungsprompts stehen in `ASSETS.md`.
 - Cookie-Einstellungen und Datenschutzdetails sind auf jeder Seite erreichbar. Der Ratgeber lädt keinen Meta-Pixel.
 - Implementierung: src/lib/tracking.ts, src/components/PrivacyControls.tsx und src/pages/CheckoutPage.tsx.
 - Abgabedokument: docs/Teil_D_Tracking.pdf (zwei Seiten). Prüf- und Bereitstellungsstand: docs/LP_READINESS.md.
-- Öffentliche URL noch offen. SPA-Konfiguration für Vercel und Netlify ist vorbereitet.
+- Öffentliche URL: https://kiprozess.github.io/lumea/ · Direkte Bestell-, Danke- und Ratgeberaufrufe funktionieren ohne Login. GitHub Pages bleibt mindestens vier Wochen ab Einreichung aktiv; keine automatische Abschaltung eingerichtet.
 
 ## GA4 und Google Tag Manager
 
 GA4 G-LUMEA0000 und ein Ecommerce-Data-Layer sind integriert. Statistik (GA4) und Marketing (Meta) werden getrennt eingewilligt. Consent Mode v2 läuft in Basic Mode ohne Requests vor Zustimmung. GTM-LUMEA0000 ist der gewünschte Demo-Platzhalter, kein veröffentlichter Container. Bis eine echte ID konfiguriert ist, sendet GA4 direkt über gtag.js. Mit echter GTM-ID wird der Direktmodus deaktiviert. Setup und Importvorlage: docs/GOOGLE_TRACKING.md und docs/gtm-container.json. IDs lassen sich über die Vite-Variablen aus .env.example konfigurieren.
+
+## Abgabedokumente und Creatives
+
+`docs/` enthält die PDFs für Teile A, B, D, E, F und G. `creatives/final/` enthält drei eigenständige Anzeigenansätze jeweils als 4:5- und 9:16-Motiv; Texte, CTA und Hypothesen stehen in `creatives/anzeigen.json` und Teil F. Die Bilder wurden mit GPT Image erzeugt; Herkunft und Prompts stehen in `creatives/GENERIERUNG.json`. Die Dateien sind keine live geschalteten Anzeigen. Der vollständige Gesprächsexport und das finale Abgabe-ZIP bleiben lokal und werden separat ausgehändigt.
