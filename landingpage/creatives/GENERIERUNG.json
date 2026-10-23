@@ -1,61 +1,41 @@
 {
   "tool": "GPT Image built-in image_gen",
   "created": "2026-10-23",
-  "referenceRole": "Sunday references for light, composition and typography only; original brand and claims not copied.",
+  "revision": 4,
   "productReference": "public/images/lumea-packshot.png",
-  "commonBrief": "Premium German Lumea social ads, photorealistic warm sunlight, stone and linen, ivory/sage/olive, exact amber jar with champagne cap and ivory/sage label. Playfair headline and Inter supporting text, no medical promises or fake endorsements.",
+  "referenceRole": "User-provided Sunday ads used as composition, typography and lighting inspiration only. Original Lumea packaging and copy; no borrowed medical claims.",
+  "commonBrief": "Warm natural sunlight, realistic hands around age 50, exact Lumea product identity, centered white sans-serif headline/subline for 01 and additional 04. Existing still life concepts 02/03 retained. Feed derived from exact Story image.",
+  "formatDerivation": "One master per concept normalized to 1080x1920; 1080x1350 Feed crop with top offset 285 by default, or feedCropTop from job for text-safe framing. Pixels in each Feed are identical to the corresponding Story region.",
   "jobs": [
     {
-      "id": "01-orientierung-4x5",
-      "ref": 1,
-      "format": "4:5 portrait, target 1080x1350",
-      "scene": "A real-looking 50 year old woman with fine lines and natural skin, relaxed at a warm window-side wooden table reading a magazine; subtle Lumea jar and water glass on table in lower third. Upper third pale warm wall with elegant dark olive text.",
-      "text": "Headline exactly: 'Die Lebensmitte.\\nNeu verstehen.' Small support: 'Orientierung für die Wechseljahre.' Bottom CTA exactly: 'Ratgeber entdecken'. Small Lumea logo above headline."
+      "id": "01-orientierung",
+      "reference": "C:/Users/Flo/AppData/Local/Temp/codex-clipboard-b03914a9-6274-4f47-8dff-16e71382716a.jpg",
+      "prompt": "Use case: ads-marketing. Create an original photorealistic Lumea social ad inspired by reference 1's warm sunlight, beige knitted sweater, close hands holding a jar and minimal white center-aligned sans serif typography. Reference 2 is ONLY the exact Lumea product identity: amber glass, CHAMPAGNE GOLD cap, ivory/sage label, Lumea/WEITER DU, 30 Kapseln. No Sunday branding. Portrait 9:16. Cropped torso of a woman about 50 in fully covering beige knitted sweater with long sleeves, face outside frame, two anatomically correct hands gently holding the CLOSED Lumea jar in front of the sweater, label facing camera. Real mature skin texture, believable fingers, warm ochre wall and golden sunlight, rich tactile sweater fabric. Copy EXACTLY headline 'DEINE LEBENSMITTE. DEIN MOMENT.' on TWO CENTERED lines, small white clean bold sans serif. Below it centered white regular subline 'Entdecke, was jetzt für dich zählt.' No other floating text, no icon, no CTA, no website footer. IMPORTANT: layout must survive center 4:5 crop. Text around 26%-34% of total height, hands and full jar within 40%-76%. All essential text and full jar stay between y22% and78%. Calm wall/sweater fabric at top and bottom. Do not place text over jar. Jar realistic hand-sized, cap matches product ref, not black.",
+      "source": "creatives/masters/01-orientierung-master.png",
+      "feedCropTop": 120
     },
     {
-      "id": "01-orientierung-9x16",
-      "ref": 1,
-      "format": "9:16 portrait, target 1080x1920",
-      "scene": "A real-looking 50 year old woman with fine lines and natural skin relaxed at a warm window-side wooden table reading a magazine; Lumea jar and water glass on table in lower middle. Top pale warm wall, comfortable negative space. Keep all essential text between 15% and 80% vertical frame safe zone for Stories.",
-      "text": "Headline exactly: 'Die Lebensmitte.\\nNeu verstehen.' Small support: 'Orientierung für die Wechseljahre.' CTA exactly: 'Ratgeber entdecken'. Small Lumea logo above headline."
+      "id": "02-inhaltsstoffe",
+      "scene": "Top-down product still life on pale warm limestone: closed Lumea jar lying flat label facing camera, one small subtle green botanical sprig next to it, TWO matching elongated beige powder-filled two-piece capsules with rounded ends and a visible joining seam. Not tablets or round pills. All small props close to jar, clean sophisticated ivory and sage palette.",
+      "copy": "Headline EXACTLY centered: 'Wissen, was drin ist.' Subline EXACTLY two centered lines: 'Traubensilberkerze · Vitamin B6' then 'Vitamin D3 · Magnesium'.",
+      "source": "creatives/masters/02-inhaltsstoffe-master.png",
+      "feedCropTop": 270
     },
     {
-      "id": "02-inhaltsstoffe-4x5",
-      "ref": 3,
-      "format": "4:5 portrait, target 1080x1350",
-      "scene": "Elegant overhead still life exact Lumea bottle centered slightly lower on white warm limestone, white-flowering botanical sprig and two beige capsules nearby, long soft plant shadow. Generous blank upper area. Fine educational product design, clean hierarchy, no medical atmosphere.",
-      "text": "Headline exactly: 'Wissen, was drin ist.' Support list exactly: 'Traubensilberkerze · Vitamin B6\\nVitamin D3 · Magnesium'. Small line: '1 Kapsel am Tag · vegan · hormonfrei'. CTA: 'Zusammensetzung entdecken'. Small Lumea logo at top."
+      "id": "03-routine",
+      "scene": "Top-down close product still life: closed Lumea jar lying flat on pale sage green background, centered label facing camera, two identical elongated beige two-piece capsules lying together immediately beside jar at its lower right. Capsules have rounded ends and seam and are the same form as those visible inside reference jar. Not round tablets, not white pills, no glass, no hands. Clean soft morning sunlight and real tactile textures.",
+      "copy": "Headline EXACTLY two centered lines: 'Eine kleine Routine.' then 'Ganz für dich.' Subline EXACTLY: 'Eine Kapsel am Tag.'",
+      "source": "creatives/masters/03-routine-master.png",
+      "feedCropTop": 285
     },
     {
-      "id": "02-inhaltsstoffe-9x16",
-      "ref": 3,
-      "format": "9:16 portrait, target 1080x1920",
-      "scene": "Elegant overhead still life exact Lumea bottle centered lower-middle on white warm limestone, white-flowering botanical sprig and two beige capsules nearby, long soft plant shadow. Generous calm negative space above. All essential text in 15%-80% vertical frame safe zone. Fine educational product design.",
-      "text": "Headline exactly: 'Wissen, was drin ist.' Support list exactly: 'Traubensilberkerze · Vitamin B6\\nVitamin D3 · Magnesium'. Small line: '1 Kapsel am Tag · vegan · hormonfrei'. CTA: 'Zusammensetzung entdecken'. Small Lumea logo above headline."
-    },
-    {
-      "id": "03-routine-4x5",
-      "ref": 6,
-      "format": "4:5 portrait, target 1080x1350",
-      "scene": "Close editorial photograph of natural 50 year old woman's hands near a Lumea jar standing on pale travertine table, beige linen sleeve, two capsules nearby, water glass to side, warm authentic sunlight. Top background pale uncluttered wall for dark olive typography. Product front sharp and legible.",
-      "text": "Headline exactly: 'Eine kleine Routine.\\nGanz für dich.' Offer exactly: 'Erster Monat 14,50 €'. Directly below offer legible conditions: 'Danach 29 €/Monat · jederzeit kündbar' and 'Versand in Deutschland inklusive'. CTA: 'Lumea kennenlernen'. Small Lumea logo above."
-    },
-    {
-      "id": "03-routine-9x16",
-      "ref": 6,
-      "format": "9:16 portrait, target 1080x1920",
-      "scene": "Close editorial photograph of natural 50 year old woman's hands near exact Lumea jar standing on pale travertine table, beige linen sleeve, two capsules nearby, water glass to side, warm authentic sunlight. Top pale uncluttered wall. All essential text within 15%-80% vertical safe zone, including offer conditions; keep edges uncluttered.",
-      "text": "Headline exactly: 'Eine kleine Routine.\\nGanz für dich.' Offer exactly: 'Erster Monat 14,50 €'. Directly below offer legible conditions: 'Danach 29 €/Monat · jederzeit kündbar' and 'Versand in Deutschland inklusive'. CTA: 'Lumea kennenlernen'. Small Lumea logo above."
+      "id": "04-routine-in-der-hand",
+      "reference": "C:/Users/Flo/Downloads/Neuer Ordner (8)/842422532_2237827930416381_4008009645232744114_n.jpg",
+      "prompt": "Use case: ads-marketing. Create original photorealistic Lumea social ad inspired by reference1's natural mature hands, capsule held above open jar, golden ochre interior, botanical wall shadow, simple CENTERED WHITE sans serif headline/subline. Reference2 is exact Lumea jar identity: amber jar, ivory/sage botanical label with Lumea WEITER DU, 30 KAPSELN. No Sunday branding, no Q10 claim. Portrait 9:16. Realistic woman about 50, only cropped linen sleeve and anatomically correct hands visible. Left hand holds OPEN Lumea jar label facing camera, right thumb/index gently holds ONE elongated BEIGE powder-filled two-piece capsule with rounded ends and visible joining seam above the jar, NOT yellow oil softgel or round tablet. Champagne gold cap resting subtly on table near jar. Warm natural sunlight, skin lines/pores, realistic fingers, simple ochre wall and soft plant shadows. Copy EXACTLY white sans serif headline 'DEINE ROUTINE. EINE KAPSEL.' on TWO CENTERED lines, below smaller centered white subline 'Lumea. Jeden Tag ganz einfach.' Only headline/subline; no icons/buttons/site. IMPORTANT safe crop: all text, full jar, pinching fingers and capsule must fit within central y23%-76% of entire portrait. Headline around y26%-32%, subline y35%, capsule y45%, open jar y55%-72%. Keep top/bottom as atmospheric background. Premium restrained warm candid product photograph.",
+      "source": "creatives/masters/04-routine-in-der-hand-master.png",
+      "feedCropTop": 100,
+      "postEdit": "Removed loose cap from tabletop using GPT Image; all hands, capsule, product and copy preserved."
     }
   ],
-  "refinement": "For the two final Stories product/ingredients variants: preserve all wording and brand, recompose with top 15% and bottom 20% reserved for background, essential offer, price conditions and CTA well inside the frame.",
-  "selectedFiles": {
-    "01-orientierung-4x5": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-0f446aca-deff-445f-a538-f63c795d2ed4.png",
-    "01-orientierung-9x16": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-94e685a1-963b-4af9-a5a2-23f7d0154077.png",
-    "02-inhaltsstoffe-4x5": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-36b69d59-2b50-4fed-8854-776a83f02a7c.png",
-    "02-inhaltsstoffe-9x16": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-53776218-b518-4378-ba07-856df631df60.png",
-    "03-routine-4x5": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-82252a6a-b16f-4a1a-98a1-9dc613cde2aa.png",
-    "03-routine-9x16": "C:\\Users\\Flo\\.codex\\generated_images\\01a15f35-ff35-7e70-86e4-2e437ab1a434\\exec-b832719b-9e10-46f4-ad7b-75673b5cebef.png"
-  },
-  "export": "Original GPT Image files unchanged in final/. Technical delivery encoding in exports/ at 1080x1350 and 1080x1920. No added frames, text alterations or new imagery; native pixel-ratio rounding normalized (less than 0.06%)."
+  "feedSafeZone": "Internal design margin: headline/subline at least 108px from left/right/top on 1080x1350 Feed canvas. Crop positioned per motif so text has clear breathing room; full jar retained. This is a layout standard, not a claimed universal Meta placement specification."
 }

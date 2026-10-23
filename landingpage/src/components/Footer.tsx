@@ -24,7 +24,7 @@ export function Footer({ onOpen }: { onOpen: (view: DialogView) => void }) {
       </div>
       <div className="footer-main">
         <div className="footer-brand">
-          <a className="footer-wordmark" href="#produkt" aria-label="Lumea – zurück zum Produkt"><img src={siteUrl('/images/lumea-logo.png')} alt="Lumea – Weiter du" loading="lazy" /></a>
+          <a className="footer-wordmark" href="#produkt" aria-label="Lumea – zurück zum Produkt"><img src={siteUrl('/images/lumea-logo.webp')} alt="Lumea – Weiter du" loading="lazy" /></a>
           <p>Für deine nächste Lebensphase.<br />Für eine Routine, die zu dir passt.</p>
         </div>
         <FooterGroup title="Entdecken" label="Lumea entdecken">
@@ -48,9 +48,9 @@ export function Footer({ onOpen }: { onOpen: (view: DialogView) => void }) {
       <div className="footer-payments">
         <p>Zahlungsmöglichkeiten</p>
         <ul aria-label="Kreditkarte und PayPal">
-          <li><img src={siteUrl('/images/payments/visa.svg')} alt="Visa" width="44" height="28" loading="lazy" /></li>
-          <li><img src={siteUrl('/images/payments/mastercard.svg')} alt="Mastercard" width="44" height="28" loading="lazy" /></li>
-          <li><img src={siteUrl('/images/payments/paypal.svg')} alt="PayPal" width="44" height="28" loading="lazy" /></li>
+          <li><img src={siteUrl('/images/payments/visa.webp')} alt="Visa" width="44" height="28" loading="lazy" /></li>
+          <li><img src={siteUrl('/images/payments/mastercard.webp')} alt="Mastercard" width="44" height="28" loading="lazy" /></li>
+          <li><img src={siteUrl('/images/payments/paypal.webp')} alt="PayPal" width="44" height="28" loading="lazy" /></li>
         </ul>
       </div>
       <div className="footer-bottom">

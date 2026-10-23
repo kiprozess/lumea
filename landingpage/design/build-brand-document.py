@@ -118,9 +118,9 @@ for i,(name,amount) in enumerate(ingredients):
     c.setStrokeColor(colors.HexColor(RULE));c.line(326,top-18,553,top-18)
 txt('Mengen pro Kapsel · 30 Kapseln pro Glas.<br/>Vegan · ohne zugesetzte Hormone.<br/>Herstellung in Deutschland laut Briefing.',326,431,227,size=8,leading=12,color=MUTED)
 txt('04 · Produktgrafiken für eine informierte Entscheidung',42,358,511,'InterBold',10,13,OLIVE)
-for i,(name,label) in enumerate([('ingredients','Inhaltsstoffe & Mengen'),('routine','Tägliche Einnahme'),('subscription','Flexibles Monatsabo')]):
+for i,(name,label) in enumerate([('ingredients','Vier Inhaltsstoffe'),('routine','Tägliche Einnahme'),('subscription','Flexibles Monatsabo')]):
     x=42+i*178
-    image('lumea-info-'+name+'-v3.png',x,139,155,194)
+    image('lumea-info-'+name+'-v4.png',x,139,155,194)
     txt(label,x,129,155,'InterBold',8,11,OLIVE)
 txt('Bildsprache: warme Natursteinflächen, weiches Tageslicht, echte Materialwirkung und dezente Botanik.<br/>Produktgrafiken kombinieren das Glas mit kurzen Fakten; Preise und Folgekosten bleiben klar erkennbar.',42,102,511,size=8,leading=12,color=MUTED)
 txt('Assets: bereitgestellte Wort-/Bildmarke; Produktmotive und Infografiken mit GPT Image erzeugt. Alle Produkte und Personen gehören zum fiktiven Konzept der Probearbeit.',42,65,511,size=7,leading=10,color=MUTED)

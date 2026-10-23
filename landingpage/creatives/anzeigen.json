@@ -1,14 +1,14 @@
 [
   {
     "id": "01-orientierung",
-    "title": "Orientierung in der Lebensmitte",
+    "title": "Deine Lebensmitte. Dein Moment.",
     "campaign": "Meta 1 · Informieren",
     "primary": "Die Wechseljahre bringen neue Fragen mit sich. Unser Ratgeber ordnet diese Lebensphase ein und zeigt, worauf es bei einer bewussten Alltagsroutine und der Auswahl von Nährstoffen ankommt. Verständlich erklärt – für informierte Entscheidungen.",
-    "headline": "Die Lebensmitte neu verstehen",
+    "headline": "Deine Lebensmitte bewusst gestalten",
     "cta": "Mehr dazu",
-    "destination": "https://kiprozess.github.io/lumea/ratgeber/deine-routine-in-der-lebensmitte/",
-    "hypothesis": "Ein natürlicher Alltagsmoment mit einer Frau um 50 und einer offenen Informationsbotschaft senkt die Einstiegshürde. Gemessen werden Kosten je Landingpage-Aufruf; die späteren Abschlüsse dienen als wirtschaftliche Kontrolle.",
-    "note": "Keine Zuschreibung individueller Beschwerden. Das Motiv lädt zur Information ein und verspricht keine medizinische Wirkung."
+    "destination": "https://lumea-projektarbeit.up.railway.app/ratgeber/deine-routine-in-der-lebensmitte/",
+    "hypothesis": "Ein nahbarer Produktmoment mit natürlichen Händen und warmem Tageslicht macht den Einstieg in das Thema Lebensmitte persönlich und zugänglich. Der Informationsimpuls führt zum Ratgeber. Verglichen werden Kosten je Landingpage-Aufruf; spätere Abschlüsse kontrollieren die Besucherqualität.",
+    "note": "Bild 1 ersetzt das bisherige Orientierungsmotiv. Die Referenz liefert Lichtstimmung und Schriftstil; Lumea verwendet eigene Texte ohne das fremde Energieversprechen."
   },
   {
     "id": "02-inhaltsstoffe",
@@ -17,7 +17,7 @@
     "primary": "Was steckt in einer täglichen Ergänzung? Lumea kombiniert Traubensilberkerzen-Extrakt, Vitamin B6, Vitamin D3 und Magnesium in einer Kapsel am Tag. Vegan, ohne zugesetzte Hormone und in Deutschland hergestellt. Entdecke die Zusammensetzung und die Mengen pro Tagesportion.",
     "headline": "Vier Inhaltsstoffe im Überblick",
     "cta": "Mehr dazu",
-    "destination": "https://kiprozess.github.io/lumea/#inhaltsstoffe",
+    "destination": "https://lumea-projektarbeit.up.railway.app/#inhaltsstoffe",
     "hypothesis": "Die sichtbare Rezeptur beantwortet Bedenken zur Zusammensetzung und erleichtert eine informierte Produktauswahl. In Meta 2 vergleichen wir Kosten je Landingpage-Aufruf; Produkt- und Kaufquoten prüfen die weitere Wirkung im Funnel.",
     "note": "Keine behauptete Hitzewallungsreduktion, kein Wirkzeitplan und keine Empfehlung durch medizinisches Personal. Pflanzen sind ein symbolisches Naturmotiv, kein botanischer Identitätsnachweis."
   },
@@ -28,8 +28,19 @@
     "primary": "Eine Kapsel am Tag, 30 Kapseln pro Lieferung: Lumea passt in eine bewusste tägliche Routine. Im Monatsabo kostet der erste Monat 14,50 €, danach 29 € monatlich. Versand in Deutschland inklusive, jederzeit kündbar. Zahlung monatlich automatisch per Kreditkarte oder PayPal. Lumea ist ein Nahrungsergänzungsmittel.",
     "headline": "Lumea kennenlernen ab 14,50 €",
     "cta": "Jetzt kaufen",
-    "destination": "https://kiprozess.github.io/lumea/#abo",
-    "hypothesis": "Eine greifbare Alltagsszene und vollständig sichtbare Abo-Konditionen reduzieren Unsicherheit beim Abschluss. Hauptkennzahl ist der Erstbestell-CPA; Kaufwert 14,50 EUR. Der gesamte Funnel bleibt am Ziel-CPA von 35 EUR zu messen.",
-    "note": "Folgepreis und Kündbarkeit sind bereits im Bild enthalten. Die tatsächliche Zielseite kennzeichnet das Angebot als fiktiven Prototyp; es wird kein Geld eingezogen."
+    "destination": "https://lumea-projektarbeit.up.railway.app/#abo",
+    "hypothesis": "Der klare Produktshot mit zwei identischen Kapseln macht die tägliche Routine greifbar. Hauptkennzahl ist der Erstbestell-CPA; Kaufwert 14,50 EUR. Der gesamte Funnel bleibt am Ziel-CPA von 35 EUR zu messen.",
+    "note": "Die vollständigen Abo-Konditionen stehen im Primärtext und auf der Zielseite. Das Bild konzentriert sich auf Headline und Subline. Die Zielseite kennzeichnet das Angebot als fiktiven Prototyp; es wird kein Geld eingezogen."
+  },
+  {
+    "id": "04-routine-in-der-hand",
+    "title": "Eine Kapsel. Ein täglicher Moment.",
+    "campaign": "Meta 3 · Produkt und Kauf · zusätzliche Motivvariante",
+    "primary": "Eine Kapsel am Tag, 30 Kapseln pro Lieferung: Lumea passt in eine bewusste tägliche Routine. Im Monatsabo kostet der erste Monat 14,50 €, danach 29 € monatlich. Versand in Deutschland inklusive, jederzeit kündbar. Zahlung monatlich automatisch per Kreditkarte oder PayPal. Lumea ist ein Nahrungsergänzungsmittel.",
+    "headline": "Deine Routine mit Lumea",
+    "cta": "Jetzt kaufen",
+    "destination": "https://lumea-projektarbeit.up.railway.app/#abo",
+    "hypothesis": "Die sichtbare Handhabung einer einzelnen Kapsel macht die tägliche Routine konkret. Gegenüber dem Produktstillleben aus Motiv 03 testen wir die Alltagsszene bei gleichem Angebot und Ziel. Hauptkennzahl ist der Erstbestell-CPA; Kaufwert 14,50 EUR.",
+    "note": "Zusätzliche Variante für Meta 3. Beige zweiteilige Pulver-Kapsel passend zum Produkt statt einer gelben Öl-Softgel. Abo-Konditionen stehen im Primärtext und auf der Zielseite; der Prototyp zieht kein Geld ein."
   }
 ]

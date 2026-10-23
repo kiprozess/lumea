@@ -12,7 +12,7 @@ export function LifePhaseIntro() {
       <p className="life-phase-note">Eine ausgewogene, abwechslungsreiche Ernährung und eine gesunde Lebensweise sind wichtig. Nahrungsergänzungsmittel sind dafür kein Ersatz.</p>
     </div>
     <div className="life-phase-portrait">
-      <img src={siteUrl('/images/lumea-portrait.png')} alt="Frau im cremefarbenen Strickpullover blickt entspannt in das warme Abendlicht" loading="lazy" />
+      <img src={siteUrl('/images/lumea-portrait.webp')} alt="Frau im cremefarbenen Strickpullover blickt entspannt in das warme Abendlicht" loading="lazy" />
       <span className="life-phase-signature" aria-hidden="true">Weiter du.</span>
     </div>
   </section>

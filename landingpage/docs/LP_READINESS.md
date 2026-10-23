@@ -1,6 +1,6 @@
 # Landingpage / Stand der Probearbeit
 
-Stand: 23. Oktober 2026. Öffentlich: https://kiprozess.github.io/lumea/ · Lokal: http://localhost:5173/
+Stand: 23. Oktober 2026. Öffentlich: https://lumea-projektarbeit.up.railway.app/ · Lokal: http://localhost:5173/
 
 ## Implementiert
 
@@ -36,7 +36,7 @@ Die Platzhalter-ID ist kein erreichbares echtes Werbekonto. Meta Events Manager 
 
 ## Bereitstellung
 
-Veröffentlicht über GitHub Pages ohne Login: https://kiprozess.github.io/lumea/. Veröffentlichung ohne Ablaufdatum; Repository und Pages-Deployment mindestens bis 20. November 2026 unverändert erreichbar halten (vier Wochen ab 23. Oktober). Es ist keine Abschaltung geplant. Die zukünftige Verfügbarkeit hängt vom Hostinganbieter und dem Fortbestand des Repositorys ab.
+Veröffentlicht über Railway ohne Login: https://lumea-projektarbeit.up.railway.app/. Veröffentlichung ohne Ablaufdatum; Repository und Pages-Deployment mindestens bis 20. November 2026 unverändert erreichbar halten (vier Wochen ab 23. Oktober). Es ist keine Abschaltung geplant. Die zukünftige Verfügbarkeit hängt vom Hostinganbieter und dem Fortbestand des Repositorys ab.
 
 - Build: `npm run build`, Ausgabe `dist/`.
 - Vercel: Root Directory `landingpage`, Build Command `npm run build`, Output Directory `dist`. SPA-Rewrites und Sicherheitsheader: `vercel.json`.

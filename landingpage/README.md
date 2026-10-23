@@ -17,7 +17,7 @@ npm run build
 npm run preview
 ```
 
-Öffentliche Demo: https://kiprozess.github.io/lumea/
+Öffentliche Demo: https://lumea-projektarbeit.up.railway.app/
 
 Der Produktionsbuild wird in `dist/` erstellt. Die GitHub-Pages-Pipeline setzt GITHUB_PAGES=true und erzeugt statische Einstiege für alle Seitenrouten.
 
@@ -60,7 +60,7 @@ Bildherkunft und Generierungsprompts stehen in `ASSETS.md`.
 - Cookie-Einstellungen und Datenschutzdetails sind auf jeder Seite erreichbar. Der Ratgeber lädt keinen Meta-Pixel.
 - Implementierung: src/lib/tracking.ts, src/components/PrivacyControls.tsx und src/pages/CheckoutPage.tsx.
 - Abgabedokument: docs/Teil_D_Tracking.pdf (zwei Seiten). Prüf- und Bereitstellungsstand: docs/LP_READINESS.md.
-- Öffentliche URL: https://kiprozess.github.io/lumea/ · Direkte Bestell-, Danke- und Ratgeberaufrufe funktionieren ohne Login. GitHub Pages bleibt mindestens vier Wochen ab Einreichung aktiv; keine automatische Abschaltung eingerichtet.
+- Öffentliche URL: https://lumea-projektarbeit.up.railway.app/ · Direkte Bestell-, Danke- und Ratgeberaufrufe funktionieren ohne Login. Die Railway-Demo bleibt mindestens vier Wochen ab Einreichung aktiv; keine automatische Abschaltung eingerichtet.
 
 ## GA4 und Google Tag Manager
 

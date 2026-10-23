@@ -2,15 +2,17 @@
 
 Stand: 23. Oktober 2026.
 
+Gesamt-PDF mit Deckblatt, klickbarem Inhaltsverzeichnis und Teilen A bis G: `Lumea_Gesamtabgabe.pdf` (16 Seiten), im ZIP als `00_Lumea_Gesamtabgabe.pdf`. Die Einzeldateien bleiben zusätzlich enthalten.
+
 Noch offen für die nachweislich vollständige Prozessabgabe: Originalexport oder öffentlicher Freigabe-Link des älteren Chats „Probearbeit Strategieentwickeln“. Dessen Antworten ließen sich in der verfügbaren Oberfläche nicht vollständig laden; die Freigabe funktionierte dort nicht. Die rekonstruierte Mitschrift ersetzt diesen Originalnachweis nicht. A bis F sowie die Reflexion und der aktuelle Codex-Gesprächsexport sind fertig.
 
-Öffentliche Landingpage ohne Login: https://kiprozess.github.io/lumea/
+Öffentliche Landingpage ohne Login: https://lumea-projektarbeit.up.railway.app/
 
-Ratgeber: https://kiprozess.github.io/lumea/ratgeber/deine-routine-in-der-lebensmitte/
+Ratgeber: https://lumea-projektarbeit.up.railway.app/ratgeber/deine-routine-in-der-lebensmitte/
 
-Bestellformular: https://kiprozess.github.io/lumea/bestellung/
+Bestellformular: https://lumea-projektarbeit.up.railway.app/bestellung/
 
-Dankeseite: https://kiprozess.github.io/lumea/danke/ (Bestellbestätigung erst nach einer Demo-Bestellung).
+Dankeseite: https://lumea-projektarbeit.up.railway.app/danke/ (Bestellbestätigung erst nach einer Demo-Bestellung).
 
 Die Veröffentlichung hat kein Ablaufdatum. Repository und Pages-Hosting mindestens vier Wochen nach Einreichung aktiv lassen; bei Einreichung am 23. Oktober entspricht das mindestens dem 20. November 2026. Keine automatische Abschaltung eingerichtet.
 
@@ -23,7 +25,7 @@ Die Veröffentlichung hat kein Ablaufdatum. Repository und Pages-Hosting mindest
 | C | Öffentliche URL oben; Teil_C_Landingpage_und_Pruefung.pdf mit Direktlinks und Prüfergebnis |
 | D | Teil_D_Tracking.pdf, zwei Seiten; Meta-Pixel 1234567890, GA4 G-LUMEA0000 |
 | E | Teil_E_Kampagnenplan.pdf, drei Seiten |
-| F | Teil_F_Creatives_und_Anzeigentexte.pdf sowie sechs einzelne PNG-Dateien |
+| F | Teil_F_Creatives_und_Anzeigentexte.pdf sowie acht einzelne PNG-Dateien |
 | G | Teil_G_KI_Reflexion.pdf, etwa eine halbe Seite Text; Teil_G_Gespraechsverlauf.md und Freigabe-Link |
 
 ## Gesprächsverlauf

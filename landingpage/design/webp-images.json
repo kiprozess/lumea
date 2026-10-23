@@ -1,0 +1,200 @@
+[
+  {
+    "source": "public/images/lumea-botanical.png",
+    "target": "public/images/lumea-botanical.webp",
+    "originalBytes": 2193885,
+    "webpBytes": 149590,
+    "width": 1122,
+    "height": 1402,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-capsule.png",
+    "target": "public/images/lumea-capsule.webp",
+    "originalBytes": 2415405,
+    "webpBytes": 217870,
+    "width": 1122,
+    "height": 1402,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-founders-product.png",
+    "target": "public/images/lumea-founders-product.webp",
+    "originalBytes": 2045053,
+    "webpBytes": 113208,
+    "width": 1448,
+    "height": 1086,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-hero.png",
+    "target": "public/images/lumea-hero.webp",
+    "originalBytes": 2183981,
+    "webpBytes": 155730,
+    "width": 1122,
+    "height": 1402,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-info-ingredients-v4.png",
+    "target": "public/images/lumea-info-ingredients-v4.webp",
+    "originalBytes": 1977940,
+    "webpBytes": 1303218,
+    "width": 1122,
+    "height": 1402,
+    "lossless": true
+  },
+  {
+    "source": "public/images/lumea-info-routine-v4.png",
+    "target": "public/images/lumea-info-routine-v4.webp",
+    "originalBytes": 2063203,
+    "webpBytes": 1353210,
+    "width": 1122,
+    "height": 1402,
+    "lossless": true
+  },
+  {
+    "source": "public/images/lumea-info-subscription-v4.png",
+    "target": "public/images/lumea-info-subscription-v4.webp",
+    "originalBytes": 1949958,
+    "webpBytes": 1318708,
+    "width": 1122,
+    "height": 1402,
+    "lossless": true
+  },
+  {
+    "source": "public/images/lumea-ingredient-b6.png",
+    "target": "public/images/lumea-ingredient-b6.webp",
+    "originalBytes": 2559323,
+    "webpBytes": 232066,
+    "width": 1254,
+    "height": 1254,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-ingredient-d3.png",
+    "target": "public/images/lumea-ingredient-d3.webp",
+    "originalBytes": 2204011,
+    "webpBytes": 130958,
+    "width": 1254,
+    "height": 1254,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-ingredient-magnesium.png",
+    "target": "public/images/lumea-ingredient-magnesium.webp",
+    "originalBytes": 2655188,
+    "webpBytes": 243460,
+    "width": 1254,
+    "height": 1254,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-leaf.png",
+    "target": "public/images/lumea-leaf.webp",
+    "originalBytes": 312271,
+    "webpBytes": 184608,
+    "width": 1536,
+    "height": 1024,
+    "lossless": true
+  },
+  {
+    "source": "public/images/lumea-logo.png",
+    "target": "public/images/lumea-logo.webp",
+    "originalBytes": 199456,
+    "webpBytes": 135214,
+    "width": 2172,
+    "height": 724,
+    "lossless": true
+  },
+  {
+    "source": "public/images/lumea-packshot.png",
+    "target": "public/images/lumea-packshot.webp",
+    "originalBytes": 1552476,
+    "webpBytes": 1015582,
+    "width": 1469,
+    "height": 1413,
+    "lossless": true
+  },
+  {
+    "source": "public/images/lumea-portrait.png",
+    "target": "public/images/lumea-portrait.webp",
+    "originalBytes": 2358651,
+    "webpBytes": 165476,
+    "width": 1122,
+    "height": 1402,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-review-anna-v2.png",
+    "target": "public/images/lumea-review-anna-v2.webp",
+    "originalBytes": 2627708,
+    "webpBytes": 204976,
+    "width": 1254,
+    "height": 1254,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-review-claudia-v2.png",
+    "target": "public/images/lumea-review-claudia-v2.webp",
+    "originalBytes": 2522116,
+    "webpBytes": 202020,
+    "width": 1254,
+    "height": 1254,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-review-miriam-v2.png",
+    "target": "public/images/lumea-review-miriam-v2.webp",
+    "originalBytes": 3064233,
+    "webpBytes": 328300,
+    "width": 1254,
+    "height": 1254,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-review-sabine-v2.png",
+    "target": "public/images/lumea-review-sabine-v2.webp",
+    "originalBytes": 2765070,
+    "webpBytes": 257308,
+    "width": 1254,
+    "height": 1254,
+    "lossless": false
+  },
+  {
+    "source": "public/images/lumea-subscription-stone.png",
+    "target": "public/images/lumea-subscription-stone.webp",
+    "originalBytes": 1918374,
+    "webpBytes": 119138,
+    "width": 1122,
+    "height": 1402,
+    "lossless": false
+  },
+  {
+    "source": "public/images/payments/mastercard.svg",
+    "target": "public/images/payments/mastercard.webp",
+    "originalBytes": 8727,
+    "webpBytes": 14660,
+    "width": 1200,
+    "height": 720,
+    "lossless": true
+  },
+  {
+    "source": "public/images/payments/paypal.svg",
+    "target": "public/images/payments/paypal.webp",
+    "originalBytes": 4319,
+    "webpBytes": 7646,
+    "width": 1200,
+    "height": 720,
+    "lossless": true
+  },
+  {
+    "source": "public/images/payments/visa.svg",
+    "target": "public/images/payments/visa.webp",
+    "originalBytes": 2629,
+    "webpBytes": 9958,
+    "width": 1200,
+    "height": 720,
+    "lossless": true
+  }
+]

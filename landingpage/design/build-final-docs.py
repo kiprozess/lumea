@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import sys
 from io import BytesIO
 from PIL import Image as RasterImage
 from xml.sax.saxutils import escape
@@ -45,8 +46,12 @@ for i, ad in enumerate(ads):
     layout=Table([images],colWidths=[260,247],hAlign='LEFT')
     layout.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('ALIGN',(0,0),(-1,-1),'CENTER'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0)]))
     flow += [layout,Spacer(1,8),p('Primärtext','h'),p(escape(ad['primary'])),p('Überschrift und Call to Action','h'),p('<b>'+escape(ad['headline'])+'</b><br/>Meta-Button: '+escape(ad['cta'])),p('Zielseite','h'),p('<link href="'+ad['destination']+'" color="#3F4A3F">'+ad['destination']+'</link>','small'),p('Hypothese','h'),p(escape(ad['hypothesis'])),p(escape(ad['note']),'small')]
-    if i==2: flow += [p('Bildsprache: warmes Tageslicht, Naturstein und Leinen, natürliche Hauttextur, ruhige Produktkomposition. Sunday-Referenzen dienen nur als gestalterische Inspiration; eigene Lumea-Motive ohne fremde Logos oder Werbeaussagen. Generiert mit GPT Image. Die drei statischen Ansätze erfüllen Teil F; das Video für den geplanten A/B-Test ist eine zusätzliche spätere Testproduktion.','small')]
+    if i==len(ads)-1: flow += [p('Bildsprache: warmes Tageslicht, Produktshots und natürliche Hände, zentrierte Headline mit Subline. Feed und Story zeigen jeweils dasselbe Motiv; das Feed-Format entsteht als mittiger Ausschnitt des Story-Masters. Sunday dient als gestalterische Inspiration. Generiert mit GPT Image. Drei Ansätze plus eine zusätzliche Routine-Variante. Das Video für den geplanten A/B-Test ist eine spätere Testproduktion.','small')]
 SimpleDocTemplate(str(ROOT/'docs/Teil_F_Creatives_und_Anzeigentexte.pdf'),pagesize=A4,leftMargin=44,rightMargin=44,topMargin=35,bottomMargin=38,title='Lumea Meta Creatives und Anzeigentexte',author='').build(flow,onFirstPage=footer,onLaterPages=footer)
+
+if '--only-f' in sys.argv:
+    print('Teil F aktualisiert')
+    sys.exit(0)
 
 reflection=[
  p('KI gezielt steuern','title'),
